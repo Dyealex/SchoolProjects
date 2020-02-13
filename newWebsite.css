@@ -2,14 +2,15 @@
 
 /* header */
 header {
-    /* max-width:100%; */
+    max-width:100%;  
     /* background-size: 100%; */
-    box-shadow: 3px 3px gray;
+    /* box-shadow: 3px 3px gray; */
     background-size: auto;
 }
 #headerTitle {
+    width: 1200px;
     text-align: center;
-    text-shadow: gray;
+    text-shadow: 2px 2px gray;
     font-family: 'Rock Salt', cursive;
 }  
 
@@ -21,11 +22,17 @@ header {
 
 /* <div id = "firstParagraph"> */
 #firstParagraph {
-  width: 300px;
-  height: 200px;
+    columns: 3;
+  width: 1200px;
+  /* height: 200px; */
+}
+#sweetieCat {
+
+    margin-left: 40px;
 }
 .catCaption {
-    margin-top: -60px;
+    margin-top: -65px;
+    margin-left: 60px;
     font-size: 30px;
     font-family: 'Rock Salt', cursive;
     font-weight: 400;
