@@ -16,12 +16,14 @@
 <h1>My Paper Order App</h1>
 <form>
     <fieldset>
-<label>Type of Job</label>
+<label id ="tOj">Type of Job</label>
 <select>
+    <P id="finSize">Finished Size</P>
     <option>8.5 x 11 booklet</option>
     <option>5.5 x 8.5 booklet</option>
 </select>
-<p>Job Quantity<input type="number" id = "quantity">
+<p>Job Quantity<input type="text" id = "quantity"></p>
+<p>Number of Signatures<input type="number" id="numUp"></p>
 
 
     </fieldset>
@@ -30,18 +32,18 @@
 
 <form>
 <fieldset>
-<legend>Type of Paper Needed</legend>
+<legend id ="tOpN">Type of Paper Needed</legend>
 <P>
 <label>Select from the List</label>
-<select>
-    <option>100# Gloss Cover</option>
-    <option>100# Satin Cover</option>
-    <option>100# Gloss Text</option>
-    <option>100# Satin Text</option>
-    <option>80# Gloss Cover</option>
-    <option>80# Satin Cover</option>
-    <option>80# Gloss Text</option>
-    <option>80# Satin Cover</option>
+<select id ="stockType">
+    <option id ="op1">100# Gloss Cover</option>
+    <option id ="op2">100# Satin Cover</option>
+    <option id ="op3">100# Gloss Text</option>
+    <option id ="op4">100# Satin Text</option>
+    <option id ="op5">80# Gloss Cover</option>
+    <option id ="op6">80# Satin Cover</option>
+    <option id ="op7">80# Gloss Text</option>
+    <option id ="op8">80# Satin Cover</option>
 </select>
 <label>Size Needed</label>
 <select>
@@ -51,7 +53,7 @@
 </select>
 <form>
     <fieldset>
-        <label>Number of press sheets required <input type="number" id="numUp"></label>
+        <label id="nOpSr">Number of press sheets required <input type="text" id="numUp2"></label>
     </fieldset>
 </form>
 
