@@ -14,22 +14,23 @@
 </head>
 <body>
 <h1>My Paper Order App</h1>
+
+<!-- job type, quantity, and num of signature section -->
 <form>
     <fieldset>
+        <legend>Job Specifications</legend>
 <label id ="tOj">Type of Job</label>
 <select>
     <P id="finSize">Finished Size</P>
-    <option>8.5 x 11 booklet</option>
-    <option>5.5 x 8.5 booklet</option>
+    <option id="size1">8.5 x 11 booklet</option>
+    <option id = "size2">5.5 x 8.5 booklet</option>
 </select>
 <p>Job Quantity<input type="text" id = "quantity"></p>
 <p>Number of Signatures<input type="number" id="numUp"></p>
-
-
-    </fieldset>
+</fieldset>
 </form>
 
-
+<!--  -->
 <form>
 <fieldset>
 <legend id ="tOpN">Type of Paper Needed</legend>
@@ -52,9 +53,9 @@
     <option>24 x 36</option>
 </select>
 <form>
-    <fieldset>
-        <label id="nOpSr">Number of press sheets required <input type="text" id="numUp2"></label>
-    </fieldset>
+    <!-- <fieldset> -->
+        <p><label id="nOpSr">Number of press sheets required <input type="text" id="numUp2"></label></p>
+    <!-- </fieldset> -->
 </form>
 
 
