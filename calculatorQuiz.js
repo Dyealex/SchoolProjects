@@ -1,15 +1,17 @@
 // that darn calculator...
 const currentResult = document.getElementById("currentResult")
 function div() {
-    let ans = Number (buttonFirst) % Number (buttonSecond)
+    let buttonFirst = document.getElementById("buttonFirst").value;
+    let buttonSecond = document.getElementById("buttonSecond").value;
+// That worked but I can't get the decimal points in.    
 
-    currentResult.innerHTML= ans
-let buttonFirst = document.getElementById("buttonFirst").parseFloat=value=ans
-let buttonSecond = document.getElementById("buttonSecond").parseFloat=value=ans
+    let ans = Number (buttonFirst) / Number (buttonSecond)
+// these are the input buttons
+    currentResult.innerHTML = ans;
 
 }
 
-
+// error is can't access buttonFirst before initilization. Moving them up to under function.
 
 
 
