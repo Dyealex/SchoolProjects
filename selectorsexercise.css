@@ -1,0 +1,67 @@
+/* not exactly to specifications but was fun playing around with it. No wonder Sweetie is so grumpy! */
+@media screen and (min-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
+  
+  @supports (display: flex) {
+    @media screen and (min-width: 900px) {
+      article {
+        display: flex;
+        
+      }
+    }
+  } 
+  .firstBlock {
+      font-family: 'Lemonada', cursive;
+      font-size: 15px;
+  }
+  .firstBlock {
+      border: 2px solid #cc3399;
+      padding: 10px;
+      box-shadow: -2px -2px grey;
+      margin-bottom: 10px;
+     
+
+  }
+  .firstBlock__elem {
+    
+      color: hotpink;
+      font-size: 20px;
+      text-shadow: .5px .5px gray;
+      offset: 10px 10px;
+      z-index: 20;
+      /*  */
+  }
+  .secondBlock {
+     position: absolute;
+     border: 2px solid black;
+     background-color: darkmagenta;
+     opacity: .6;
+     z-index: 1;
+     font-family: 'Lemonada', cursive;
+      font-size: 15px;
+      color: white;
+     
+  }
+  
+  
+  @keyframes move {
+    0% { 
+   offset-distance: 0%;
+}
+   100% {
+offset-distance: 100%;
+   }
+}
+/* copy/paste from MDN but it worked... */
+.nmotion {
+    offset-path: path('M-40,40 C70,70 40, -70 -70,40');
+    animation: move 5000ms infinite alternate ease-in-out;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin-left:300px;
+    margin-top: 150px;
+    z-index: -1;
+}

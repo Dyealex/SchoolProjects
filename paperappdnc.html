@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paper Order App</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="paperapp.css">
+<link rel="stylesheet" href="paperappdnc.css">
 
 <!-- C:\Users\Diane Alexander\Desktop\ColorPickerFavorites/savedColorCodes.txt copy/pasted to work on later -->
 </head>
@@ -21,13 +21,19 @@
         <legend>Job Specifications</legend>
 <label id ="tOj">Type of Job</label>
 <!-- first division of this... -->
-<select>
+<section>
     <P id="finSize">Finished Size</P>
-    <option id="size1">8.5 x 11 booklet</option>
-    <option id = "size2">5.5 x 8.5 booklet</option>
-</select>
-<p>Job Quantity <input type="number" id = "quantity"></p><button id ="multi">*</button>
+    <option id="size1">8.5 x 11 booklet</option><button type = "button" button id ="size1" onclick= "Selection">Select</button>
+    <option id = "size2">5.5 x 8.5 booklet</option><button type = "button" button id ="size2" onclick= "Selection">Select</button>
+    
 
+<p>Job Quantity <input type="number" id = "quantity"></p><button id ="multi">*</button>
+<p>Number of Signatures <input type="number" id="numUp"></p><button id ="multi">*</button>
+<p><label id="nOpSr">Number of press sheets required <input type="number" id="numUp2"></label></p>
+</fieldset>
+</form>
+
+</section>
 
 
 <!-- var x = document.getElementById("myBtn").form.id;
