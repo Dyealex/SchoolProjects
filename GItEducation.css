@@ -71,6 +71,9 @@
 #paragraphThree {
     margin-top: -400px;
     margin: 10px;
+    border: 2px solid gray;
+    outline: 2px solid greenyellow;
+    outline-offset: 5px;
     width: 450px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
