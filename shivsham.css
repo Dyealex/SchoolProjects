@@ -1,0 +1,24 @@
+#shivSham:hover {
+background-color: rgb(219, 74, 146);
+opacity: .5;
+transform-style: preserve-3d;
+transition-duration: 3ms;
+transform: translateY(180);
+    }
+ #shivSham { 
+    width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: greenyellow; 
+}
+
+#shivSham {
+    flex-flow: wrap-reverse;
+}
+
+         /* @media (hover:hover){
+            shivSham:hover{
+                background-color: hotpink;
+            }
+
+         } */
