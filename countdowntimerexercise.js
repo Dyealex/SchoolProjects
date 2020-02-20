@@ -1,37 +1,49 @@
-var intervalID = setInterval(drawText, 1000)
-
-function drawText () {
-    document.querySelector("p").textContent= "@\n";
-}
-var intervalID= setInterval(drawText, 1000);
-// The above thing works but I am trying something else
-
-// 
+// This is totally broken. Now I can't get it to do anything and can't find the original page that I got it from!!!!! And it is now 2:49!!!
+// found another source. Could never find the original one...
 
 
-// function drawText () {
-//     document.querySelector("p").textContent+="@\n";
+function printNumbers(from, to) {
+    let current = from;
+  
+    setTimeout(function go() {
+    //   alert(current);
+      if (current < to) {
+        setTimeout(go, 1500);
+        document.getElementById("stupidCrap").innerHTML=current++;
+      }
+      current++;
+    }, 1500);
+  }
+//   changed plus plus to plus 1..and it stopped at 1
+  // usage:
+  printNumbers(0,  11);
+//   changed 1 to zero to see what happens
+// changed 10 to 11
+
+//   don't touch anything!!!!
+// no way this will work!!!
+// Oh, this will be the death of me. It works but counts every other number!!!!
 
 
-// }
-// // let i = 1;
-// setTimeout(function run() {
-//   drawText(i++);
-//   setTimeout(run, 10);
-// }, 10);
 
-// var intervalID = setInterval(drawText, 10)
-// function drawText() {
-//     setTimeout(myTimeout1, 2000) 
-//     setTimeout(myTimeout2, 4000) 
-//     setTimeout(myTimeout3, 6000) 
-//   }
-//   function myTimeout1() {
-//     document.getElementById("p").innerHTML = "2 seconds";
-//   }
-//   function myTimeout2() {
-//     document.getElementById("p").innerHTML = "4 seconds";
-//   }
-//   function myTimeout3() {
-//     document.getElementById("p").innerHTML = "6 seconds";
-//   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

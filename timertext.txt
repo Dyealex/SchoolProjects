@@ -1,0 +1,77 @@
+This is stuff I deleted from the original timer
+HTML stuff.....
+<!-- //   </script> -->
+   
+    <!-- <button onclick="intervalID" = setInterval(drawText)>Try it</button>
+
+<!-- <button onclick="clearTimeout">Stop it</button> -->
+<!-- <button onclick=stopTimer();>Stop</button>  
+
+<!-- (drawText,3000)
+<p id="p"></p>
+
+<button onclick="clearInterval(drawText)">Stop time</button>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+function myTimer() {
+  var d = new Date();
+  document.getElementById("p").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+JavaScript stuff....
+
+
+// var intervalID = setInterval(drawText, 3000)
+// drawText="#"
+// // // var i = setInterval (i ++,  3000)
+// function drawText () {
+// //     // document.querySelector("p").textContent= "@\n";
+//     document.querySelector("p").textContent = "#";
+// //     // let setInterval = drawText=10;
+
+// } else {
+// stopTimer = "Time is up!"}
+// function stopTimer () {
+// setInterval = clearTimeout(setTimeout, 5000);
+// // document.addEventListener("stopTimer").onclick
+// The above thing works but I am trying something else
+// this has it console.logging the error but it does it 5 times.
+// 
+// }
+// (drawText, 3000)
+// function drawText () {
+//     document.querySelector("p").textContent+="@\n";
+
+
+// }
+// // let i = 1;
+// setTimeout(function run() {
+//   drawText(i++);
+//   setTimeout(run, 10);
+// }, 10);
+
+// var intervalID = setInterval(drawText, 10)
+// function drawText() {
+//     setTimeout(myTimeout1, 2000) 
+//     setTimeout(myTimeout2, 4000) 
+//     setTimeout(myTimeout3, 6000) 
+//   }
+//   function myTimeout1() {
+//     document.getElementById("p").innerHTML = "2 seconds";
+//   }
+//   function myTimeout2() {
+//     document.getElementById("p").innerHTML = "4 seconds";
+//   }
+//   function myTimeout3() {
+//     document.getElementById("p").innerHTML = "6 seconds";
+//   }
+
+// let intervalID = setInterval(drawText(3000)) 
+// function drawText() { 
+//     document.querySelector("p").textContent += "#"; 
+// }
+
+// clearInterval(intervalID);
+
