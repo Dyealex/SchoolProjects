@@ -1,0 +1,10 @@
+list of items
+mint
+
+
+
+
+need to compare user input list of term on each key stroke
+if invalid input/alert
+needs to look different
+
