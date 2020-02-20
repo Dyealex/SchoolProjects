@@ -11,7 +11,7 @@ function printNumbers(from, to) {
         setTimeout(go, 1500);
         document.getElementById("stupidCrap").innerHTML=current++;
       }
-      current++;
+    //   current++;
     }, 1500);
   }
 //   changed plus plus to plus 1..and it stopped at 1
