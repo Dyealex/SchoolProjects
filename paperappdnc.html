@@ -27,9 +27,15 @@
     <option id = "size2">5.5 x 8.5 booklet</option><button type = "button" button id ="size2" onclick= "Selection">Select</button>
     
 
-<p>Job Quantity <input type="number" id = "quantity"></p><button id ="multi">*</button>
-<p>Number of Signatures <input type="number" id="numUp"></p><button id ="multi">*</button>
+<p>Job Quantity <input type="number" id = "userInput1"></p>
+<button id ="enterQuan" onclick="userInput1">Enter</button>
+<!-- this will be multiplied by the number of signatures for job -->
+<p>Number of Signatures <input type="number" id="userInput2"></p>
+<button id ="enterQuan2" onclick="userInput2">Enter</button>
+
+<button id ="multi">*</button>
 <p><label id="nOpSr">Number of press sheets required <input type="number" id="numUp2"></label></p>
+<!-- This result will be divided by the result from job quantity/num of sigs -->
 </fieldset>
 </form>
 
