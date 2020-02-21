@@ -1,6 +1,23 @@
 /* not exactly to specifications but was fun playing around with it. No wonder Sweetie is so grumpy! */
-@media screen and (min-width: 900px) {
+/* body {
+  display: flex;
+  justify-content: left;
+} */
+#tryThis {
+  /* display: flex;
+justify-content: center; */
+width: auto;
+max-height: 300px;
+}
+#tryAgain {
+  width: auto;
+  text-align: center;
+}
+/* added flex to body */
+@media screen and (min-width: 380px) {
     article {
+      /* display: flex;
+      justify-content: center; */
       padding: 1rem 3rem;
     }
   }
@@ -8,24 +25,30 @@
   @supports (display: flex) {
     @media screen and (min-width: 900px) {
       article {
-        display: flex;
-        
+        /* display: flex;
+        justify-content: center; */
       }
     }
   } 
   .firstBlock {
+    /* justify-content: center; */
+    width: auto;
       font-family: 'Lemonada', cursive;
       font-size: 15px;
-  }
-  .firstBlock {
       border: 2px solid #cc3399;
       padding: 10px;
       box-shadow: -2px -2px grey;
       margin-bottom: 10px;
   }
+  /* .firstBlock {
+    /* justify-content: center; */
+    width: auto;
+     
+  } */
 
   .firstBlock__elem {
-    
+    /* justify-content: center; */
+    width: auto;
       color: hotpink;
       font-size: 20px;
       text-shadow: .5px .5px gray;
@@ -35,10 +58,13 @@
   }
 
   .secondBlock {
-     position: absolute;
+     /* position: absolute; */
+     /* adding flex to body caused total destruction! */
      border: 2px solid black;
+     /* display: flex;
+  justify-content: left; */
      background-color: darkmagenta;
-     opacity: .6;
+     opacity: .7;
      z-index: 1;
      font-family: 'Lemonada', cursive;
       font-size: 15px;
@@ -55,12 +81,15 @@ offset-distance: 100%;
     }
 /* copy/paste from MDN but it worked... */
 .nmotion {
-    offset-path: path('M-40,40 C0,70 40, -70 -70,40');
+  /* display: flex;
+  justify-content: center; */
+  /* added the display:flex and center and commmented out the margin left and top*/
+    offset-path: path('M-40,40 C100,70 40, -70 -70,40');
     animation: move 5000ms infinite alternate ease-in-out;
     border: 2px solid black;
     border-radius: 50%;
-    margin-left:300px;
-    margin-top: 400px;
+    margin-left:500px;
+    margin-top: 50px;
     z-index: -1;
-    
+    opacity: .7;
   }
