@@ -2,6 +2,7 @@
     width: 600px;
     height: 250px;
     padding: 20px 20px;
+    offset-position: 30px 30px;
     /* display: flex; */
     /* display: flexbox; */
     /* justify-items: stretch; */
@@ -10,4 +11,23 @@
 
     /* justify-self: flex-start; */
     border: 3px solid palevioletred;
+}
+/* .insideBox {
+/* display: flex; */
+/* display: flexbox; */
+/* border: 6px solid blueviolet; */
+/* offset-position: 30px; */
+/* justify-self: right; */
+/* padding: 10px; */
+/* }  */
+p:nth-child(2) {
+    display: flexbox;
+    justify-self: stretch;
+    border: 6px solid blueviolet;
+    /* white-space: pre; */
+    offset-distance: 3px;
+    border:3px solid crimson;
+}
+p {
+    offset-distance: ;
 }
