@@ -1,0 +1,13 @@
+.firstBox {
+    width: 600px;
+    height: 250px;
+    padding: 20px 20px;
+    /* display: flex; */
+    /* display: flexbox; */
+    /* justify-items: stretch; */
+    /* justify-self: start; */
+    /* text-justify: distribute; */
+
+    /* justify-self: flex-start; */
+    border: 3px solid palevioletred;
+}
