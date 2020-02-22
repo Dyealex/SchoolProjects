@@ -1,0 +1,8 @@
+Stuff that works....
+ outline: 6px solid blueviolet; (commenting out this removes the outline completely)
+ outline-color: slategrey;() (commenting out this changes the color to purple. Deletes or overrides the gray.)
+    border:3px solid crimson;
+    padding: 20px;
+
+
+    

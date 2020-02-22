@@ -1,14 +1,17 @@
-.firstBox {
-    width: 600px;
-    height: 250px;
-    padding: 20px 20px;
-    offset-position: 30px 30px;
+.container {
+    display: flex;
+    flex-flow: nowrap;
+    flex-basis: auto;
+    /* width: 700px; */
+    /* height: 250px; */
+    padding: 10px 20px;
+    /* offset-position: 30px 30px; */
     /* display: flex; */
     /* display: flexbox; */
     /* justify-items: stretch; */
     /* justify-self: start; */
     /* text-justify: distribute; */
-
+    /* flex-flow: column; */
     /* justify-self: flex-start; */
     border: 3px solid palevioletred;
 }
@@ -21,13 +24,45 @@
 /* padding: 10px; */
 /* }  */
 p:nth-child(2) {
-    display: flexbox;
-    justify-self: stretch;
-    border: 6px solid blueviolet;
+    /* display: flexbox; */
+    /* justify-self: stretch; */
+    outline: 6px solid blueviolet;
     /* white-space: pre; */
-    offset-distance: 3px;
+    /* offset-distance: 3px; */
+    /* outline-offset: 10px; */
+    outline-color: slategrey;
     border:3px solid crimson;
+    padding: 10px;
+    fill: greenyellow;
 }
 p {
-    offset-distance: ;
+    /* outline-color: steelblue; */
+    outline-offset: 10px;
+    /* flex-basis: 20px; */
+    flex-direction: column;
+}
+#tabRow {
+    flex-direction: row;
+    height: 50px;
+    /* background-color: violet; */
+    max-width: 980px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    fill: greenyellow;
+}
+.buttons {
+    /* width: 100px; */
+    /* background-color: seagreen; */
+    /* outline-style: outset; */
+    outline-style: ridge;
+    padding: 5px;
+    outline-color: skyblue;
+    outline-offset: 2px;
+    /* border: 1px solid gray; */
+    border-radius: 30%;
+    /* shape-outside: ellipse(20px); */
+    margin: 5px;
+    /* border-radius: 5px; */
+    
+    
 }
