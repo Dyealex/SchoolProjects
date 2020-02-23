@@ -1,11 +1,11 @@
 .container {
     display: flex;
-    flex-flow: nowrap;
-    flex-basis: auto;
+    /* flex-flow: nowrap; */
+    /* flex-basis: auto; */
     /* width: 700px; */
     /* height: 250px; */
     padding: 10px 20px;
-    /* offset-position: 30px 30px; */
+    /* offset-position: 30px 30px; this is for animation */
     /* display: flex; */
     /* display: flexbox; */
     /* justify-items: stretch; */
@@ -15,7 +15,7 @@
     /* justify-self: flex-start; */
     border: 3px solid palevioletred;
 }
-/* .insideBox {
+/* /* .insideBox { */
 /* display: flex; */
 /* display: flexbox; */
 /* border: 6px solid blueviolet; */
@@ -23,46 +23,60 @@
 /* justify-self: right; */
 /* padding: 10px; */
 /* }  */
+
 p:nth-child(2) {
     /* display: flexbox; */
     /* justify-self: stretch; */
-    outline: 6px solid blueviolet;
+    outline: 10px solid orangered;
+    /* outline: 10px solid gray; */
     /* white-space: pre; */
-    /* offset-distance: 3px; */
-    /* outline-offset: 10px; */
-    outline-color: slategrey;
+    /* offset-distance: 3px; this is for animation */
+    outline-offset: 0px;
+    margin: 10px;
+    /* outline-color: 10px solid orangered; */
     border:3px solid crimson;
     padding: 10px;
-    fill: greenyellow;
+    /* fill: greenyellow; */
 }
 p {
+    display: flex;
     /* outline-color: steelblue; */
-    outline-offset: 10px;
+    /* outline-offset: 10px; */
     /* flex-basis: 20px; */
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 #tabRow {
-    flex-direction: row;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 115px;
+    /* height: 75px; */
+    /* flex-shrink: inherit; works in a different way. */
     /* background-color: violet; */
-    max-width: 980px;
+    /* max-width: 980px; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-    fill: greenyellow;
+    /* fill: greenyellow; */
 }
 .buttons {
+    height: 50px;
+    text-align: center;
+    /* text-align: justify; */
     /* width: 100px; */
-    /* background-color: seagreen; */
+    background-color: seagreen;
     /* outline-style: outset; */
-    outline-style: ridge;
-    padding: 5px;
-    outline-color: skyblue;
-    outline-offset: 2px;
+    /* outline-style: ridge; */
+    padding: 1px;
+    padding-top: 3px;
+    /* outline-color: skyblue; */
+    /* outline-offset: 2px; */
     /* border: 1px solid gray; */
-    border-radius: 30%;
+    border-radius: 5%;
+    border: 3px solid gray;
     /* shape-outside: ellipse(20px); */
     margin: 5px;
     /* border-radius: 5px; */
-    
-    
+}
+.buttons:hover {
+    background-color: lightcoral;
+    border: 3px solid green;
 }
