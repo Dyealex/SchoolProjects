@@ -1,0 +1,48 @@
+
+
+/* header */
+header {
+    max-width:100%;  
+    /* background-size: 100%; */
+    /* box-shadow: 3px 3px gray; */
+    background-size: auto;
+}
+#headerTitle {
+    width: 1200px;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    font-family: 'Rock Salt', cursive;
+}  
+
+/* #canI{
+    background-image: image("transm-dot.png");
+} */
+
+/* aside id = "navBar" */
+
+
+
+/* <div id = "firstParagraph"> */
+#firstParagraph {
+    columns: 3;
+  width: 1200px;
+  /* height: 200px; */
+}
+#sweetieCat {
+    margin-top: -35px;
+    margin-left: 40px;
+}
+.catCaption {
+    margin-top: -65px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400;
+    color: #40287d;
+    text-shadow: 1px 2px #354a6e;
+}
+
+
+
+/* <p class = "catCaption">Hi Morgan!</p> */
+

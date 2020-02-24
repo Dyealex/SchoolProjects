@@ -1,0 +1,184 @@
+/* <!-- GitEducation Week 3 Homework--> */
+ 
+/* the span elements */
+#boldDesign:hover {
+    font-size: 40px;
+    font-style: italic;
+    color: purple; 
+    cursor: pointer;
+
+} 
+/* the small type in the gittin use to git section */
+#elEss {
+    margin-top: 5px;
+    font-size: 12px;
+}
+/* the horizontal rule rule */
+#rules {
+    width: 200px;
+    border-bottom-color: #9966ff;
+}
+
+/* the header at the top of the page */
+#theHeaderElement {
+    /* border: 2px solid #774488; */
+    width: 1200px;
+    height: 250px;
+    background-image: image("sunrisephoto.jpg");
+    box-sizing: border-box;
+    }
+/* the text inside the header */
+    #siteTitle {
+    position: absolute;
+    margin-top: -90px;
+    /* text-align: center; */
+    margin-left: 360px;
+    color: white;
+    font-size: 50px;
+}
+
+    /* the title of the first paragraph "the git essentials" */
+#gitFirst {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px #9966ff;
+    font-family: 'Roboto', sans-serif;
+    }
+/* the git essentials paragraph */
+#firstParagraph {
+    /* width: 1200px; */
+    text-align: center;
+} 
+
+/* the gitting use to git section */
+/* the h3 is within the div */
+#paragraphTwo {
+    margin-top: 50px;
+    width: 475px;
+    height: 300px;
+    /* margin-right: 300px; */
+    padding: 11px;
+    /* display: inline-block; */
+    margin-left: 10px;
+    border: 2px solid #ff00ff;
+    box-shadow: -3px -2px gray;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #99ccff 20%, #ff99cc 68%);
+    }
+
+/* the gitting a new directory section */
+/* the h3 is within the section */
+#paragraphThree {
+    margin-top: -400px;
+    margin: 10px;
+    border: 2px solid gray;
+    outline: 2px solid greenyellow;
+    outline-offset: 5px;
+    width: 450px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+    /* display: inline-block; */
+    /* float: left; */
+    
+}
+
+/* the title of paragraph four */
+#gitAhead {
+    color: #9966ff;
+    border-left: 4px solid  #9966ff;
+    /* margin-left: 10px; */
+    margin-top: -500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* the where the heck am i paragraph */
+#paragraphFour {
+    /* display:inline; */
+    width: 520px;
+    height: 400px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 700px;
+    margin-top: -600px;
+    /* margin-left:10px; */
+}
+
+/* the microsoft aside section */
+#rant {
+    text-align: center;
+    }
+/* #secondBorder {
+    width: 470px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    margin-left: 690px;
+    margin-top: -660px;
+} */
+    #microCrap {
+    width: 450px;
+    border-radius: 10px;
+    border: 4px solid rgb(153, 0, 204);
+    border-style: groove;
+    /* background-image: url("speechbubble.png"); */
+
+    /* display:inline-block; */
+    margin-left: 700px;
+    margin-top: -650px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    }
+    /* #clipBoard {
+        width: 750px;
+        height: 800px;
+        opacity: .5;
+
+    } */
+
+
+/* the gitting tricky paragraph */
+.paragraphFive {
+    /* display: inline; */
+    width: 500px;
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+/* the footer element */
+#cbc8 {
+    text-align: center;
+    font-size: 10px;
+}
+#importantParagraph {
+width: 450px;
+margin-left: 700px;
+margin-top: -210px;
+font-family: 'Roboto', sans-serif;
+    /* margin-left: 600px; */
+}
+/* the git our homework paragraph */
+.paragraphSix {
+margin-top: 400px;
+margin-left: 10px;
+font-family: 'Roboto', sans-serif;
+}
+#descripList {
+    margin-left: 10px;
+}
+#homework {
+    table-layout: auto;
+    
+    
+}
+ tr :nth-child(odd) {
+    background-color: #ff00ff;
+}
+td  {
+    border-bottom: 2px solid black;
+    border-right: 2px solid fuchsia;
+}
+tr :nth-child(even) {
+    background-color: gray;
+}
