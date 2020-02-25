@@ -42,11 +42,12 @@ h3 {
     font-family: 'Lemonada', cursive;
     margin-left: 18%;
     margin-right: 50%;
-    margin-top: -200px;
+    margin-top: -12em;
 }
 #sweetieParagraph {
     font-family: 'Lemonada', cursive;
     width: 800px;
+    margin-top: 2em;
     margin-left: 18%;
     margin-right: 50%;
 
@@ -55,4 +56,11 @@ h3 {
     border-radius: 20px;
     /* border-spacing: 2px; */
     box-shadow: 5px 5px #ff884d;
+}
+#gusPic {
+    width: 15em;
+    border-radius: 20px;
+    box-shadow: 5px 5px #ff884d;
+    margin-top: 8em;
+
 }
