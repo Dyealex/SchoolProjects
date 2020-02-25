@@ -1,4 +1,4 @@
-// Promise code along..
+// Promise code along..with Morgan and Harcourt 2/25
 
 // complicated math
 function someMath() {
