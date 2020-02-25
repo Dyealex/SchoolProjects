@@ -12,7 +12,7 @@ function waitForMath(){
 return new Promise ((resolve, reject) => {
     try {
         resolve (someMath());
-        reject();
+        
     
     } catch (error) {
         reject ('error:numbers arent real');
