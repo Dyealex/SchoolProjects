@@ -9,7 +9,7 @@ console.log("It is a cruel world!")
 // function sayHi(user) {
 //     return `Hello, ${user}!`;
 //   }
-// function add (){
+// function add (azz){
 //  return  9 + 25
 
 // }
