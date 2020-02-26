@@ -1,7 +1,7 @@
 // exercise wait
 
 
-//    
+//   This may not work as you intended but I did manage to get it to do what I wanted it to do so I feel GOOOD! 
 
 
 let thePromise=require('./promisefile.js')
