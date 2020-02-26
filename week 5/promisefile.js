@@ -1,16 +1,18 @@
-let p = new Promise ((resolve, reject) => {
+let thePromise = new Promise ((resolve, reject) => {
 
-    let a = 1 + 1;
+    let a = 1 + 22;
     if (a == 23) {
-        resolve('Success')
+        resolve('success!')
 
     }else {
-        reject("failed")
+        reject("fail!")
     }
 })
-p.then((message) => {
-    console.log('This is a then '+ message)
+thePromise.then((message) => {
+    console.log('This is a THEN '+ message)
 
 }).catch((message) => {
-    console.log('this is the catch ' + message)
+    console.log('this is a CATCH ' + message)
 })
+
+exports.thePromise = thePromise;
