@@ -3,7 +3,7 @@ let thePromise = new Promise ((resolve, reject) => {
     let a = 1 + 22;
     if (a == 23) {
         resolve('success!')
-
+console.log(a.toString())
     }else {
         reject("fail!")
     }
