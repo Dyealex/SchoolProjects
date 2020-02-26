@@ -1,0 +1,9 @@
+Exercise wait
+Create a function that takes some time to execute (You can count to a really high number, or use a setInterval)
+Create a second function that does something once the first function has completed. (Prefer that you use a Promise)
+Separate those two functions into separate files and call one of them using node
+Exercise prompt
+Create a Node Prompt that asks a question
+Then have the prompt print to the console a string with some of the user's response
+Then after that question is asked. Ask another question
+Put the input logic and the output logic into different files and require both of them into a main file. Make the main file callable from the cli.
