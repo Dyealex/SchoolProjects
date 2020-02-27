@@ -12,7 +12,14 @@ let thePromise=require('./promisefile.js')
     // console.log(`message${thePromise.alert("What the heck...?")}`);
 
     let printNumbers = (0,10)
-    setTimeout(function(printNumbers) { 
+    // function printNumbers(to, from) {
+        let current =  0;
+        // added the lines above
+    // setTimeout(function(printNumbers) { original line
+        setTimeout(function go() {
+        // trying to get it to log the numbers. adding the console.log printnumbers to see what happens.
+        // console.log(printNumbers(0-10))
+        printNumbers(0, 10);
         console.log("That was a LOONNGGG 10 seconds!"); }, 10000)
         function addText () {
                 return "Hello World!"
@@ -22,6 +29,7 @@ let thePromise=require('./promisefile.js')
             function addText () {
                 return ""
             }
+        
             console.log ("Going to work on something more funner")
             console.log("I PROMISE to work on this later")
 
