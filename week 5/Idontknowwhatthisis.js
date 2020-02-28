@@ -31,9 +31,9 @@
 //     return (cname!="");
 // }
 
-const http = require('http');
+// const http = require('http');
 const https = require('https');
-
+let url = require('https://www.w3schools.com/colors/colors_picker.asp')
 https
 .get('https://www.w3schools.com/colors/colors_picker.asp', resp => {
 let data = ""
@@ -42,7 +42,7 @@ resp.on("data", chunk => {
     data += chunk;
 });
 resp.on("end", () => {
-    let url =JSON.parse(data).hdurl;
+    let url =url.parse(req.url, true);
     console.log(url);
 })
 })
