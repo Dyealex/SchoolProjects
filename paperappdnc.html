@@ -16,30 +16,54 @@
 <h1>My Paper Order App</h1>
 
 <!-- job type, quantity, and num of signature section -->
-<form>
+<!-- <form> -->
     <fieldset>
         <legend>Job Specifications</legend>
-<label id ="tOj">Type of Job</label>
+<h3>Type of Job</h3>
 <!-- first division of this... -->
+<form id = "finishedSize">
 <section>
-    <P id="finSize">Finished Size</P>
+    <label id ="finSize">Finished Size</label>
     <!-- trying to join the selection to one group -->
     <select>
     <option id="size1">8.5 x 11 booklet</option>
     <option id = "size2">5.5 x 8.5 booklet</option>
+    <option id = "size3">11 X 17</option>
+    <option id = "size4">8.5 X 11</option>
 </select>
 
+<form id ="paperSpecs">
+    <h3>Type of stock needed</h3>
+<label>Select from the List</label>
+<select id ="stockType">
+    <option id ="op1">100# Gloss Cover</option>
+    <option id ="op2">100# Satin Cover</option>
+    <option id ="op3">100# Gloss Text</option>
+    <option id ="op4">100# Satin Text</option>
+    <option id ="op5">80# Gloss Cover</option>
+    <option id ="op6">80# Satin Cover</option>
+    <option id ="op7">80# Gloss Text</option>
+    <option id ="op8">80# Satin Cover</option>
+</select>
+</form>
+<!-- ^^^^ this works...^^^^^ -->
+
 <p>Job Quantity <input type="number" id = "userInput1"></p>
+<section id ="jobTotal">
 <button id ="enterQuan" onclick="userInput1">Enter</button>
 <!-- this will be multiplied by the number of signatures for job -->
-<p>Number of Signatures <input type="submit" id="userInput2"></p>
-<button id ="enterQuan2" onclick="userInput2">Enter</button>
-
+<p>Number of Signatures <input type="number" id="userInput2"></p>
 <button id ="multi">*</button>
+<button id ="enterQuan2" onclick="userInput2">Enter</button>
+</section>
+<h2>Number of press sheets required</h2>
+<h2 id = "pressSheets"></h2>
+
+
 <p><label id="nOpSr">Number of press sheets required <input type="number" id="numUp2"></label></p>
 <!-- This result will be divided by the result from job quantity/num of sigs -->
 </fieldset>
-</form>
+<!-- </form> -->
 
 </section>
 
