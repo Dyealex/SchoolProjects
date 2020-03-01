@@ -16,28 +16,34 @@
 <h1>My Paper Order App</h1>
 
 <!-- job type, quantity, and num of signature section -->
-<form>
+<!-- <form> -->
     <fieldset>
         <legend>Job Specifications</legend>
 <label id ="tOj">Type of Job</label>
 <!-- first division of this... -->
+<form id = "finishedSize">
 <section>
     <P id="finSize">Finished Size</P>
-    <option id="size1">8.5 x 11 booklet</option><button type = "checkbox" button id ="size1" onclick= "Selection">Select</button>
-    <option id = "size2">5.5 x 8.5 booklet</option><button type = "checkbox " button id ="size2" onclick= "Selection">Select</button>
-    
-
+    <option value = "size1">8.5X 11</option> 
+    <option value = "size2">5.5 x 8.5 booklet</option>
+</section>
+</form>
 <p>Job Quantity <input type="number" id = "userInput1"></p>
+<section id ="jobTotal">
 <button id ="enterQuan" onclick="userInput1">Enter</button>
 <!-- this will be multiplied by the number of signatures for job -->
-<p>Number of Signatures <input type="submit" id="userInput2"></p>
-<button id ="enterQuan2" onclick="userInput2">Enter</button>
-
+<p>Number of Signatures <input type="number" id="userInput2"></p>
 <button id ="multi">*</button>
+<button id ="enterQuan2" onclick="userInput2">Enter</button>
+</section>
+<h2>Number of press sheets required</h2>
+<h2 id = "pressSheets"></h2>
+
+
 <p><label id="nOpSr">Number of press sheets required <input type="number" id="numUp2"></label></p>
 <!-- This result will be divided by the result from job quantity/num of sigs -->
 </fieldset>
-</form>
+<!-- </form> -->
 
 </section>
 
