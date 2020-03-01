@@ -44,23 +44,34 @@
     <option id ="op6">80# Satin Cover</option>
     <option id ="op7">80# Gloss Text</option>
     <option id ="op8">80# Satin Cover</option>
+    <option id ="op9">70# uncoated</option>
 </select>
+</form>
+<form id ="paperSpecs">
+    <h3>Size of stock required</h3>
+<label>Select</label>
+<select id ="stockType">
+    <option id ="op11">25 X 38</option>
+    <option id ="op21">28 X 40</option>
+    <option id ="op31">24 X 36</option>
+    <option id ="op41">23 X 35</option>
+</select>
+<label id ="numOut"><input type="number">Number out</label>
 </form>
 <!-- ^^^^ this works...^^^^^ -->
 
-<p>Job Quantity <input type="number" id = "userInput1"></p>
+<h3>Job Quantity <input type="number" id = "userInput1"></h3>
 <section id ="jobTotal">
-<button id ="enterQuan" onclick="userInput1">Enter</button>
+<!-- <button id ="enterQuan" onclick="userInput1">Enter</button> -->
 <!-- this will be multiplied by the number of signatures for job -->
-<p>Number of Signatures <input type="number" id="userInput2"></p>
-<button id ="multi">*</button>
-<button id ="enterQuan2" onclick="userInput2">Enter</button>
+<h3>Number of Signatures <input type="number" id="userInput2"></h3>
+<!-- <button id ="multi">*</button> -->
+<!-- <button id ="enterQuan2" onclick="userInput2">Enter</button> -->
 </section>
-<h2>Number of press sheets required</h2>
-<h2 id = "pressSheets"></h2>
+<!-- <h3>Number of press sheets required</h3> -->
 
 
-<p><label id="nOpSr">Number of press sheets required <input type="number" id="numUp2"></label></p>
+<h3 id = "pressSheets"><label id="nOpSr">Number of press sheets required <input type="number" id="numUp2"></label></h3>
 <!-- This result will be divided by the result from job quantity/num of sigs -->
 </fieldset>
 <!-- </form> -->
