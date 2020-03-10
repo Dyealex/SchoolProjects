@@ -1,0 +1,21 @@
+/* Websites css */
+
+#containerOne {
+    /* display: flex; */
+    /* direction: ltr; */
+    width: 1200px;
+}
+
+#containerTwo {
+    /* flex-direction: row; */
+    width: 800px;
+}
+#brokeCom {
+    width: 800px;
+}
+#containerThree {
+    width: 800px;
+}
+#containerFour {
+    width: 800px;
+}
