@@ -4,15 +4,30 @@
     /* display: flex; */
     /* direction: ltr; */
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #containerTwo {
     /* flex-direction: row; */
-    width: 800px;
+    width:900px;
 }
 #brokeCom {
-    width: 800px;
+    width: 900px;
+    /* margin-left: 225px; */
 }
+.photos {
+    width: 150px;
+    margin-left:10px;
+    border:2px solid black; border-radius: 10px;
+    transform: rotate(-8deg);
+    box-shadow: -6px -6px 4px darkgrey;
+}
+#photo1 {
+    position: relative;
+  top: -105px; left: 180px;
+}
+
 #containerThree {
     width: 800px;
 }
