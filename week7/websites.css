@@ -6,19 +6,26 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Fjalla One', sans-serif;
+
 }
 
 #containerTwo {
     /* flex-direction: row; */
     width:900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #brokeCom {
     width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     /* margin-left: 225px; */
 }
 .photos {
     width: 150px;
-    margin-left:10px;
+    margin-left: auto;
+    margin-right: auto;
     border:2px solid black; border-radius: 10px;
     transform: rotate(-8deg);
     box-shadow: -6px -6px 4px darkgrey;
@@ -29,8 +36,12 @@
 }
 
 #containerThree {
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
 }
 #containerFour {
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
 }
