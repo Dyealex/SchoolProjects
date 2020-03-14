@@ -6,6 +6,14 @@
     margin: 0 -16px;
   }
   
+  #orderBlank {
+      width: 30px;
+      margin: 5px;
+      background-color: rgb(180, 175, 175);
+  }
+.combodescription {
+    margin-top: -15px;
+}
   .col-25 {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
@@ -72,6 +80,7 @@
   span.price {
     float: right;
     color: grey;
+    padding-left: 10px;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
@@ -86,5 +95,5 @@
 
   #menuItemList {
       width: 400px;
-      
+
   }
