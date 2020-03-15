@@ -4,45 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Listener Page</title>
-    <link rel="stylesheet" href = "eventListenertest.css"
+    <link rel="stylesheet" href = "eventListenertest.css">
 </head>
 <body>
     
 
 <h2>MENU</h2>
-<div id = "menuItemList">
-<p class = "itemOrdered">Big Salad
-    <span class="price">$10</span>
-    <input type="number"  id = "orderBlank" placeholder=" ">
-    <button type="submit">Enter</button></p>
+<section class="container content-section">
+<h2 class="section-header">Meals</h2>
+  <div class="shop-items">
+    <span class="shop-item-title">Big Salad</span>
+<div class="shop-item-details">
+  <span class="shop-item-price">$10.00</span>
+  <button class="btn btn-primary shop-item-button" type="button">Add To Your Bag</button>
+  <span class="shop-item-title">Small Salad</span>
+  <div class="shop-item-details">
+    <span class="shop-item-price">$9.00</span>
+    <button class="btn btn-primary shop-item-button" type="button">Add To Your Bag</button>
+  </div>
+  <section class="container content-section">
+    <h2 class="section-header">Your Feed Bag</h2>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">Item</span>
+      <span class="cart-price cart-header cart-column">Price</span>
+      <span class="cart-quantity cart-header cart-column">Quantity</span>
+    </div>
 
-        <p class = "menuItems">Small Salad<span class="price">$7</span><input type="number" class="itemOrdered1" id = "orderBlank" placeholder=""><button type="submit" onclick="menuItems">Enter</button></p>
-        <p class = "itemOrdered">Hamburger Combo<span class="price">$8</span><input type="number" class="itemOrdered1" id = "orderBlank" placeholder=""><button type="submit">Enter</button></p><p class="combodescription">(Combos come with fries and a drink)</p>
-        <p class = "itemOrdered">Cheeseburger Combo<span class="price">$9</span><input type="number" class="itemOrdered1" id = "orderBlank" placeholder=""><button type="submit">Enter</button></p><p class="combodescription">(Combos come with fries and a drink)</p>
-        <p class = "itemOrdered">Large Drink<span class="price">$3</span><input type="number" class="itemOrdered1" id = "orderBlank" placeholder=""><button type="submit">Enter</button></p>
-        <p class = "itemOrdered">Small Drink<span class="price">$2</span><input type="number" class="itemOrdered1" id = "orderBlank" placeholder=""><button type="submit">Enter</button></p>
-        <p class = "itemOrdered">Chocolate Milkshake<span class="price">$3</span><input type="number" class="itemOrdered1" id = "orderBlank" placeholder=""><button type="submit">Enter</button></p>
-       
+  <div class="cart-items">
+    <div class="cart-row">
+      <div class="cart-item cart-column">
+        <span class= "cart-item-title">Big Salad</span>
+        <span class="cart-price cart-column">$10.00</span>
+        <div class="cart qunatity cart-column">
+          <input class="cart-quantity-input" type="number" value="1">
+          <button class= "btn btn-danger" type ="button">Remove</button>
+          </div>
+        </div>
+          <div class="cart-item cart-column">
+            <span class= "cart-item-title">Small Salad</span>
+            <span class="cart-price cart-column">$9.00</span>
+            <div class="cart quantity cart-column">
+              <input class="cart-quantity-input" type="number" value="1">
+              <button class= "btn btn-danger" type ="button">Remove</button>
         
+      </div>
 
     </div>
-    <div id = "shoppingCart"><p>MENU Items ordered</p>
-       
-        <input type="text" id ="menuSelect" placeholder=""><br>
-        <h4 class = "itemOrdered">Please check your order</h4>
-        <button style="font-size:24px">Place your Order<i class="fa fa-cart-plus"></i></button>
-        <div class="col-25">
-            <div class="container">
-              <p>Cart
-                <span class="price" style="color:black">
-                  <i class="fa fa-shopping-cart"></i>
-                  <b></b>
-                </span>
-            </p>
 
-    </div>
+
+
+  </div>
+</section>
+
+
+</div>
   <script src="eventlistenertest.js"></Script>
 
 
 </body>
 </html>
+
+
