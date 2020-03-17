@@ -11,8 +11,10 @@
  
 function calculatePrice () {
     console.log("calculatePrice clicked!!!!");
+   var inputElement= document.getElementById("item1Quantity")
+   console.log(inputElement)
 }
-// works!!!
+// works!!! *** works again!!!
 
 //  itemsOrdered.push(item1, item2, item3, item4, item5, item6, item7)
 //  for (var i = 0; i < itemsOrdered.length; i++) {
