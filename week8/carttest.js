@@ -11,8 +11,16 @@
  
 function calculatePrice () {
     console.log("calculatePrice clicked!!!!");
-   var inputElement= document.getElementById("item1Quantity")
-   console.log(inputElement)
+    // This works...
+   var inputElement= document.getElementById("item1Quantity");
+   console.log(inputElement);
+//    This works...
+//    console.log("type", typeof "item1Quantity")
+   var inputText = inputElement.value;
+//    this shit will drive you stark raving mad. This would not work because i hit 'enter' on the value and it had a capitol v instead of lower case!!!!
+   console.log("inputText", inputText)
+//    console.log("inputText", inputText)
+//    console.log("type", typeOf, inputText)
 }
 // works!!! *** works again!!!
 
