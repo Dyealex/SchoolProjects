@@ -1,6 +1,6 @@
 // I am leaving all the commented out items here because this is an example of how frigging hard I worked to get this crap TO WORK!!!!! We are talking "DAYS" here not hours!!!!!! and as of 4:40AM on Wednesday, March 18th, it is still not right!!!!
 
- var itemsOrdered = []
+//  var itemsOrdered = []
  var item1 ={name:'Big Salad', cost: 10, ordered:0};
  var item2= {name:'Small Salad', cost: 9, ordered:0};
  var item3= {name: 'Hamburger Combo', cost:8, ordered:0};
@@ -8,8 +8,10 @@
  var item5= {name:'Large Drink', cost:3, ordered:0};
  var item6= {name:'Small Drink', cost:2, ordered:0};
  var item7= {name:'Chocolate Milkshake', cost:4, ordered:0};
- 
- var inputElement= document.addEventListener('click', inputElement);
+
+//  var inputText = inputElement;
+
+ var item1= document.addEventListener('click', calculatePrice());
 //  var inputText = inputElement;
       // removing value from end....
       // var quantity = parseInt(inputText);
@@ -29,8 +31,6 @@ function calculatePrice () {
 
    // console.log("type", typeof inputElement)
          //^^^This works...returns calcPrice and<input id="item1Quantity" type="text" value="0" and type string...> still works to here
-  
-   var inputText = inputElement
          // ^^^moving this line to up above function....
          //This line defines inputText on next line^^^this shit will drive you stark raving mad. This would not work because i hit 'enter' on the value and it had a capitol v instead of lower case!!!!
 
@@ -38,10 +38,11 @@ function calculatePrice () {
          // console.log("type", typeof inputText)
          //^^^This works...returns calcPrice and<input id="item1Quantity" type="text" value="0" and type string, plus input text 0 or what is typed in box...>
    
-   // var inputElement = parseInt(inputText);
+   var inputElement = parseInt(inputElement);
          // ^^^moving this line up as well
          // getting message that quantity is not defined, adding a line below to see what happens.
-         var quantity = inputText
+         var quantity = inputElement;
+         // var inputElement = parseInt(inputElement);
    // console.log("type", typeof inputText)
    // console.log("type", typeof quantity);
          // console.log("type", typeof quantity);
