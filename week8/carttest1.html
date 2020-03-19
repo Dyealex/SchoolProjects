@@ -14,9 +14,10 @@
     <div id ="item1"><b>The <i>BIG</i> Salad</b>
         <p>Our BIG salad is a truly big salad with a little price. A huge bed of baby spinach, cherry tomatoes, shredded cheese, diced ham, fried onions, egg crumbles....whatever else we can dig up. These salads are made up weeks in advance so <b>NO special requests!</b><br></p>
         <span>Price: $10</span><br>
-        <input id = "item1Quantity" type="number" value="0">
-        <br>
-        <button onclick="calculatePrice()" type="button">Enter Number Needed</button> 
+        <!-- <input id = "item1Quantity" type="text" value="0"> -->
+      
+        <button onclick="addToBag()" type="button">Select</button> 
+        <input id = "bagTotal" type="number" value="0" placeholder="">
         <span>Total: $</span><span id ="item1Total"></span>
     </div>
     <hr>

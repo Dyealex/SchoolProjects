@@ -9,16 +9,16 @@
  var item6= {name:'Small Drink', cost:2, ordered:0};
  var item7= {name:'Chocolate Milkshake', cost:4, ordered:0};
 
- var item1= document.addEventListener('click', calculatePrice());
+//  var item1Total = document.addEventListener('click', addToBag());
 
- function calculatePrice () {
-
-    var inputElement = parseInt(inputElement);
-
-    var quantity = inputElement;
-
-    if (isNaN(quantity)) {
-        console.log("Only numbers please...")
-        return;
-     }
+ function addToBag () {
+    document.addEventListener('click', addToBag);
+    // var inputElement = parseInt.inputElement;
+// return item1;
+    // var quantity = inputElement
+console.log(addToBag.target)
+    // if (isNaN(quantity)) {
+    //     console.log("Only numbers please...")
+    //     return;
+    //  }
   }
